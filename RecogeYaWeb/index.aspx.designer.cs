@@ -42,6 +42,15 @@ namespace RecogeYaWeb
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
+        /// Control tbBuscar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbBuscar;
+
+        /// <summary>
         /// Control BuscarBut.
         /// </summary>
         /// <remarks>
@@ -51,13 +60,13 @@ namespace RecogeYaWeb
         protected global::System.Web.UI.WebControls.Button BuscarBut;
 
         /// <summary>
-        /// Control tbBuscar.
+        /// Control DropDownList1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbBuscar;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
 
         /// <summary>
         /// Control RegistroClienteBut.
@@ -85,15 +94,6 @@ namespace RecogeYaWeb
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button IniciarSesBut;
-
-        /// <summary>
-        /// Control DropDownList1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
 
         /// <summary>
         /// Control gvMain.
