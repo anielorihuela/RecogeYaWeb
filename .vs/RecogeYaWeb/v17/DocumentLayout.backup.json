@@ -1,82 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\povempresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\povempresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVEmpresa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\POVEmpresa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\povempresa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\povempresa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\iniciarsesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\iniciarsesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\recogeyaweb\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\miscompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\miscompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\recogeyaweb\\iniciarsesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\iniciarsesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\povcliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\povcliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\miscompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\miscompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\povcliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\povcliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\registrocliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\registrocliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\recogeyaweb\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\rodri\\onedrive\\documentos\\visual studio 2022\\recogeyaweb\\recogeyaweb\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\recogeyaweb\\registroempresa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\registroempresa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\recogeyaweb\\registroempresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\registroempresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVEmpresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\POVEmpresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\recogeyaweb\\registrocliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\registrocliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\rodri\\onedrive\\documentos\\visual studio 2022\\recogeyaweb\\recogeyaweb\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|c:\\users\\annie\\downloads\\dai\\recogeyaweb\\recogeyaweb\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:recogeyaweb\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\Empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroEmpresa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\RegistroEmpresa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroEmpresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\RegistroEmpresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVCliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\POVCliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\IniciarSesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\IniciarSesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\MisCompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\MisCompras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\IniciarSesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\IniciarSesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVCliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\POVCliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\MisCompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\MisCompras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\Cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroCliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\RegistroCliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroCliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7C4D5B3-4D03-4FCF-8656-0ED909489520}|RecogeYaWeb\\RecogeYaWeb.csproj|solutionrelative:RecogeYaWeb\\RegistroCliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,41 +86,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\Producto.cs",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\Producto.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\Producto.cs",
-              "RelativeToolTip": "RecogeYaWeb\\Producto.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwCUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T23:12:50.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "POVEmpresa.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\POVEmpresa.aspx.cs",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\POVEmpresa.aspx.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\POVEmpresa.aspx.cs",
-              "RelativeToolTip": "RecogeYaWeb\\POVEmpresa.aspx.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T22:46:17.833Z",
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\index.aspx",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\index.aspx",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\index.aspx",
+              "RelativeToolTip": "RecogeYaWeb\\index.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-07T21:42:18.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "Empresa.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Empresa.cs",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\Empresa.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Empresa.cs",
+              "RelativeToolTip": "RecogeYaWeb\\Empresa.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswDkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T21:17:28.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "POVEmpresa.aspx",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\POVEmpresa.aspx",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVEmpresa.aspx",
               "RelativeDocumentMoniker": "RecogeYaWeb\\POVEmpresa.aspx",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\POVEmpresa.aspx",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVEmpresa.aspx",
               "RelativeToolTip": "RecogeYaWeb\\POVEmpresa.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -129,50 +129,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IniciarSesion.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\IniciarSesion.aspx.cs",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\IniciarSesion.aspx.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\IniciarSesion.aspx.cs",
-              "RelativeToolTip": "RecogeYaWeb\\IniciarSesion.aspx.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCYAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "POVEmpresa.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVEmpresa.aspx.cs",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\POVEmpresa.aspx.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVEmpresa.aspx.cs",
+              "RelativeToolTip": "RecogeYaWeb\\POVEmpresa.aspx.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowEEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T21:49:40.992Z",
+              "WhenOpened": "2025-04-06T22:46:17.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Conexion.cs",
               "RelativeDocumentMoniker": "RecogeYaWeb\\Conexion.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\Conexion.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Conexion.cs",
               "RelativeToolTip": "RecogeYaWeb\\Conexion.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAEEAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAlwFAAAACTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T14:58:37.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Empresa.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\Empresa.cs",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\Empresa.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\Empresa.cs",
-              "RelativeToolTip": "RecogeYaWeb\\Empresa.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwDkAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Producto.cs",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\Producto.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Producto.cs",
+              "RelativeToolTip": "RecogeYaWeb\\Producto.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAzwCwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T21:17:28.745Z",
+              "WhenOpened": "2025-04-06T23:12:50.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "index.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\index.aspx.cs",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\index.aspx.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\index.aspx.cs",
+              "RelativeToolTip": "RecogeYaWeb\\index.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA9wBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:40:09.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistroEmpresa.aspx",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroEmpresa.aspx",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\RegistroEmpresa.aspx",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroEmpresa.aspx",
+              "RelativeToolTip": "RecogeYaWeb\\RegistroEmpresa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-06T14:44:05.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistroEmpresa.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroEmpresa.aspx.cs",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\RegistroEmpresa.aspx.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroEmpresa.aspx.cs",
+              "RelativeToolTip": "RecogeYaWeb\\RegistroEmpresa.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:49:45.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Usuario.cs",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\Usuario.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Usuario.cs",
+              "RelativeToolTip": "RecogeYaWeb\\Usuario.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T20:42:06.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MisCompras.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\MisCompras.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\MisCompras.aspx.cs",
               "RelativeDocumentMoniker": "RecogeYaWeb\\MisCompras.aspx.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\MisCompras.aspx.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\MisCompras.aspx.cs",
               "RelativeToolTip": "RecogeYaWeb\\MisCompras.aspx.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -181,76 +233,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IniciarSesion.aspx",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\IniciarSesion.aspx",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\IniciarSesion.aspx",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\IniciarSesion.aspx",
-              "RelativeToolTip": "RecogeYaWeb\\IniciarSesion.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-06T14:54:03.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "POVCliente.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\POVCliente.aspx.cs",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\POVCliente.aspx.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\POVCliente.aspx.cs",
-              "RelativeToolTip": "RecogeYaWeb\\POVCliente.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAewBIAAACSAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T21:43:56.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "index.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\index.aspx.cs",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\index.aspx.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\index.aspx.cs",
-              "RelativeToolTip": "RecogeYaWeb\\index.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAACSAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T14:40:09.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "MisCompras.aspx",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\MisCompras.aspx",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\MisCompras.aspx",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\MisCompras.aspx",
-              "RelativeToolTip": "RecogeYaWeb\\MisCompras.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-06T21:48:17.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\Cliente.cs",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\Cliente.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\Cliente.cs",
-              "RelativeToolTip": "RecogeYaWeb\\Cliente.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAwEoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T20:59:54.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "POVCliente.aspx",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\POVCliente.aspx",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVCliente.aspx",
               "RelativeDocumentMoniker": "RecogeYaWeb\\POVCliente.aspx",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\POVCliente.aspx",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVCliente.aspx",
               "RelativeToolTip": "RecogeYaWeb\\POVCliente.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -259,11 +246,76 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IniciarSesion.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\IniciarSesion.aspx.cs",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\IniciarSesion.aspx.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\IniciarSesion.aspx.cs",
+              "RelativeToolTip": "RecogeYaWeb\\IniciarSesion.aspx.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T21:49:40.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "IniciarSesion.aspx",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\IniciarSesion.aspx",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\IniciarSesion.aspx",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\IniciarSesion.aspx",
+              "RelativeToolTip": "RecogeYaWeb\\IniciarSesion.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-06T14:54:03.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "POVCliente.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVCliente.aspx.cs",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\POVCliente.aspx.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\POVCliente.aspx.cs",
+              "RelativeToolTip": "RecogeYaWeb\\POVCliente.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewBIAAACSAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T21:43:56.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MisCompras.aspx",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\MisCompras.aspx",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\MisCompras.aspx",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\MisCompras.aspx",
+              "RelativeToolTip": "RecogeYaWeb\\MisCompras.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-06T21:48:17.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Cliente.cs",
+              "RelativeDocumentMoniker": "RecogeYaWeb\\Cliente.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\Cliente.cs",
+              "RelativeToolTip": "RecogeYaWeb\\Cliente.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAwEoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T20:59:54.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "RegistroCliente.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\RegistroCliente.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroCliente.aspx.cs",
               "RelativeDocumentMoniker": "RecogeYaWeb\\RegistroCliente.aspx.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\RegistroCliente.aspx.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroCliente.aspx.cs",
               "RelativeToolTip": "RecogeYaWeb\\RegistroCliente.aspx.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAwCUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -272,65 +324,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "index.aspx",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\index.aspx",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\index.aspx",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\index.aspx",
-              "RelativeToolTip": "RecogeYaWeb\\index.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-06T14:35:35.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RegistroEmpresa.aspx",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\RegistroEmpresa.aspx",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\RegistroEmpresa.aspx",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\RegistroEmpresa.aspx",
-              "RelativeToolTip": "RecogeYaWeb\\RegistroEmpresa.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-06T14:44:05.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RegistroEmpresa.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\RegistroEmpresa.aspx.cs",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\RegistroEmpresa.aspx.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\RegistroEmpresa.aspx.cs",
-              "RelativeToolTip": "RecogeYaWeb\\RegistroEmpresa.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T14:49:45.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\Usuario.cs",
-              "RelativeDocumentMoniker": "RecogeYaWeb\\Usuario.cs",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\Usuario.cs",
-              "RelativeToolTip": "RecogeYaWeb\\Usuario.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA4wDUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T20:42:06.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "RegistroCliente.aspx",
-              "DocumentMoniker": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\RegistroCliente.aspx",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroCliente.aspx",
               "RelativeDocumentMoniker": "RecogeYaWeb\\RegistroCliente.aspx",
-              "ToolTip": "C:\\Users\\annie\\Downloads\\DAI\\RecogeYaWeb\\RecogeYaWeb\\RegistroCliente.aspx",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Visual Studio 2022\\RecogeYaWeb\\RecogeYaWeb\\RegistroCliente.aspx",
               "RelativeToolTip": "RecogeYaWeb\\RegistroCliente.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-04-06T14:50:31.497Z",
               "EditorCaption": ""
