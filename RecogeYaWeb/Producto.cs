@@ -9,48 +9,49 @@ namespace RecogeYaWeb
     public class Producto
     {
         public String tipo;
-        public String fechaPost;
         public int precioBase;
         public float desc;
-        public int precioFinal;
         public int cant;
         public String cad;
-        public String fechaVenta;
         public String nomUsuario;
 
-        public Producto(string tipo, string fechaPost, int precioBase, float desc, int precioFinal, int cant, string cad, string fechaVenta, string nomUsuario)
+        public Producto(string tipo, int precioBase, float desc, int cant, string cad, string nomUsuario)
         {
             this.tipo = tipo;
-            this.fechaPost = fechaPost;
             this.precioBase = precioBase;
             this.desc = desc;
-            this.precioFinal = precioFinal;
             this.cant = cant;
             this.cad = cad;
-            this.fechaVenta = fechaVenta;
             this.nomUsuario = nomUsuario;
         }
 
         public Boolean insertarProd()
         {
-            long id = generarId();
-            SqlConnection con = Conexion.agregarConexion();
-            String query = "";
+            try
+            {
+                SqlConnection con = Conexion.agregarConexion();
+                if (con != null) 
+                {
+                    String query = String.Format("INSERT INTO Producto (tipo, precioBase, descuento, cantidadStock, caducidad, nomUsuario) VALUES ('{0}', {1}, {2}, {3}, '{4}', '{5}');", this.tipo, this.precioBase, this.desc, this.cant, this.cad, this.nomUsuario);
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    int res = cmd.ExecuteNonQuery();
+                    if(res > 0)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
             return true;
 
-        }
-        private long generarId()
-        {
-            SqlConnection con = Conexion.agregarConexion();
-            String query = String.Format("select top(1) Producto.idProd from Producto where Producto.nomUsuario = '{0}' order by Producto.idProd desc", this.nomUsuario);
-            SqlCommand cmd = new SqlCommand(query, con);
-            SqlDataReader reader = cmd.ExecuteReader();
-            long id = 0;
-            if (reader.Read())
-            {
-                id = reader.GetInt64(0);
-            }
-            return id;
         }
     }
 }

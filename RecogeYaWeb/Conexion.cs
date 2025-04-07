@@ -14,8 +14,8 @@ namespace RecogeYaWeb
             SqlConnection cnn;
             try
             {
-                //cnn = new SqlConnection("Data Source=macareno;Initial Catalog =dbComida; User ID = sa; Password = sqladmin21"); //String conexión Ro: 
-                cnn = new SqlConnection("Data Source=LapAniel;Initial Catalog =dbComida; User ID = sa; Password = sqladmin21");
+                cnn = new SqlConnection("Data Source=macareno;Initial Catalog =dbComida; User ID = sa; Password = sqladmin21"); //String conexión Ro: 
+                //cnn = new SqlConnection("Data Source=LapAniel;Initial Catalog =dbComida; User ID = sa; Password = sqladmin21");
                 cnn.Open();
                 //MessageBox.Show("Se conecto");
             }
@@ -78,7 +78,7 @@ namespace RecogeYaWeb
         public static bool ClienteIndexBuscar(GridView gvMain, String busco)
         {
             SqlConnection con = Conexion.agregarConexion();
-            String query = String.Format("select Producto.tipo, Producto.precioFinal, Producto.cantidadStock, Producto.caducidad,Empresa.nomEmpresa, Empresa.pais, Empresa.municipio,Empresa.estado, Empresa.CP, Empresa.colonia, Empresa.calle from Producto inner join Empresa on Empresa.nomUsuario = Producto.nomUsuario where Producto.tipo like '%{0}%' and Producto.fechaVenta is null and CONVERT(date, Producto.caducidad) >= CONVERT(date, GETDATE())", busco);
+            String query = String.Format("select Producto.tipo, Producto.precioFinal, Producto.cantidadStock, Producto.caducidad,Empresa.nomEmpresa, Empresa.pais, Empresa.municipio,Empresa.estado, Empresa.CP, Empresa.colonia, Empresa.calle from Producto inner join Empresa on Empresa.nomUsuario = Producto.nomUsuario where Producto.tipo like '%{0}%'", busco);
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataReader rdr = cmd.ExecuteReader();
             if (rdr.HasRows)
@@ -98,7 +98,7 @@ namespace RecogeYaWeb
             gvMain.DataSource = null;
             gvMain.DataBind();
             SqlConnection con = Conexion.agregarConexion();
-            String query = String.Format("select Producto.tipo, Producto.precioFinal, Producto.cantidadStock, Producto.caducidad,Empresa.nomEmpresa, Empresa.pais, Empresa.municipio,Empresa.estado, Empresa.CP, Empresa.colonia, Empresa.calle from Producto inner join Empresa on Empresa.nomUsuario = Producto.nomUsuario where Empresa.municipio = '{0}' and Producto.fechaVenta is null and CONVERT(date, Producto.caducidad) >= CONVERT(date, GETDATE())", region);
+            String query = String.Format("select Producto.tipo, Producto.precioFinal, Producto.cantidadStock, Producto.caducidad,Empresa.nomEmpresa, Empresa.pais, Empresa.municipio,Empresa.estado, Empresa.CP, Empresa.colonia, Empresa.calle from Producto inner join Empresa on Empresa.nomUsuario = Producto.nomUsuario where Empresa.municipio = '{0}'", region);
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataReader rdr = cmd.ExecuteReader();
             if (rdr.HasRows)
