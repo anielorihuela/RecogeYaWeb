@@ -132,13 +132,31 @@ namespace RecogeYaWeb
         protected global::System.Web.UI.WebControls.TextBox tbEmpresa;
 
         /// <summary>
-        /// Control tbTel.
+        /// Control tbTel1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbTel;
+        protected global::System.Web.UI.WebControls.TextBox tbTel1;
+
+        /// <summary>
+        /// Control tbTel2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbTel2;
+
+        /// <summary>
+        /// Control tbTel3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbTel3;
 
         /// <summary>
         /// Control RegBut.

@@ -31,11 +31,12 @@ namespace RecogeYaWeb
             this.nomUsuario = nomUsuario;
         }
 
-        public bool insertarProd()
+        public Boolean insertarProd()
         {
             long id = generarId();
             SqlConnection con = Conexion.agregarConexion();
-            String query = String.Format
+            String query = "";
+            return true;
 
         }
         private long generarId()

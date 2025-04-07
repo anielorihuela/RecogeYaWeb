@@ -18,8 +18,8 @@ namespace RecogeYaWeb
         {
             String tipo = "Empresa";
             String contraseña = tbContra.Text;
-            String nomUusario = tbNomUsuario.Text;
-            Usuario usuario = new Usuario(nomUusario, contraseña, tipo);
+            String nomUsuario = tbNomUsuario.Text;
+            Usuario usuario = new Usuario(nomUsuario, contraseña, tipo);
             if (usuario.insertarUsuario())
             {
                 String correo = tbCorreo.Text;
@@ -31,15 +31,47 @@ namespace RecogeYaWeb
                 String municipio = tbMunicipio.Text;
                 String admin = tbAdmin.Text;
                 String nomEmpresa = tbEmpresa.Text;
-                Empresa empresa = new Empresa(nomUusario, correo, estado, pais, calle, cp, colonia, municipio, admin, nomEmpresa);
-                if (empresa.registrarEmpresa())
+                if(tbTel1.Text != "" && tbTel2.Text == "" && tbTel3.Text == "")
                 {
-                    lbCheck.Text = "Alta exitosa";
+                    int telefono1 = Int32.Parse(tbTel1.Text);
+                    Empresa empresa = new Empresa(nomUsuario, nomEmpresa, correo, estado, pais, calle, cp, colonia, municipio, admin, telefono1);
+                    if (empresa.registrarEmpresa1Telefono())
+                    {
+                        lbCheck.Text = "Alta exitosa";
+                    }
+                    else
+                    {
+                        lbCheck.Text = "Alta no exitosa";
+                    }
                 }
-                else
+                else if (tbTel1.Text != "" && tbTel2.Text != "" && tbTel3.Text == "")
                 {
-                    lbCheck.Text = "Alta no exitosa";
-                }
+                    int telefono1 = Int32.Parse(tbTel1.Text);
+                    int telefono2= Int32.Parse(tbTel2.Text);
+                    Empresa empresa = new Empresa(nomUsuario, nomEmpresa, correo, estado, pais, calle, cp, colonia, municipio, admin, telefono1, telefono2);
+                    if (empresa.registrarEmpresa2Telefonos())
+                    {
+                        lbCheck.Text = "Alta exitosa";
+                    }
+                    else
+                    {
+                        lbCheck.Text = "Alta no exitosa";
+                    }
+                } else if (tbTel1.Text != "" && tbTel2.Text != "" && tbTel3.Text != "")
+                {
+                    int telefono1 = Int32.Parse(tbTel1.Text);
+                    int telefono2 = Int32.Parse(tbTel2.Text);
+                    int telefono3 = Int32.Parse(tbTel3.Text);
+                    Empresa empresa = new Empresa(nomUsuario, nomEmpresa, correo, estado, pais, calle, cp, colonia, municipio, admin, telefono1, telefono2, telefono3);
+                    if (empresa.registrarEmpresa3Telefonos())
+                    {
+                        lbCheck.Text = "Alta exitosa";
+                    }
+                    else
+                    {
+                        lbCheck.Text = "Alta no exitosa";
+                    }
+                } else lbCheck.Text = "Ingresa al menos un telefono, de arriba hacia abajo";
             }
             else
             {

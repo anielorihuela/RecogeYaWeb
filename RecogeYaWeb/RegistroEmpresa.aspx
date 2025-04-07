@@ -58,8 +58,14 @@
             <asp:TextBox ID="tbEmpresa" runat="server"></asp:TextBox>
             <br />
             <br />
-            Teléfonos (separados por comas)<br />
-            <asp:TextBox ID="tbTel" runat="server"></asp:TextBox>
+            Teléfonos (Hasta tres)<br />
+            <asp:TextBox ID="tbTel1" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:TextBox ID="tbTel2" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:TextBox ID="tbTel3" runat="server"></asp:TextBox>
             <br />
             <br />
             <asp:Button ID="RegBut" runat="server" Text="Registrarse" OnClick="RegBut_Click" />
