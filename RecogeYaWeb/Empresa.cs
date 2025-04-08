@@ -20,15 +20,15 @@ namespace RecogeYaWeb
         public String colonia;
         public String municipio;
         public String admin;
-        public int telefono1;
-        public int telefono2;
-        public int telefono3;
+        public String telefono1;
+        public String telefono2;
+        public String telefono3;
 
         public Empresa()
         {
         }
 
-        public Empresa(string nomUsuario, string nomEmpresa, string correo, string estado, string pais, string calle, int cp, string colonia, string municipio, string admin, int telefono1, int telefono2, int telefono3)
+        public Empresa(string nomUsuario, string nomEmpresa, string correo, string estado, string pais, string calle, int cp, string colonia, string municipio, string admin, String telefono1, String telefono2, String telefono3)
         {
             this.nomUsuario = nomUsuario;
             this.tipo = "Empresa";
@@ -46,7 +46,7 @@ namespace RecogeYaWeb
             this.telefono3 = telefono3;
         }
 
-        public Empresa(string nomUsuario, string nomEmpresa, string correo, string estado, string pais, string calle, int cp, string colonia, string municipio, string admin, int telefono1, int telefono2)
+        public Empresa(string nomUsuario, string nomEmpresa, string correo, string estado, string pais, string calle, int cp, string colonia, string municipio, string admin, String telefono1, String telefono2)
         {
             this.nomUsuario = nomUsuario;
             this.tipo = "Empresa";
@@ -63,7 +63,7 @@ namespace RecogeYaWeb
             this.telefono2 = telefono2;
         }
 
-        public Empresa(string nomUsuario, string nomEmpresa, string correo, string estado, string pais, string calle, int cp, string colonia, string municipio, string admin, int telefono1)
+        public Empresa(string nomUsuario, string nomEmpresa, string correo, string estado, string pais, string calle, int cp, string colonia, string municipio, string admin, String telefono1)
         {
             this.nomUsuario = nomUsuario;
             this.tipo = "Empresa";

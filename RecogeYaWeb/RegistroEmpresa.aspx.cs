@@ -33,7 +33,7 @@ namespace RecogeYaWeb
                 String nomEmpresa = tbEmpresa.Text;
                 if(tbTel1.Text != "" && tbTel2.Text == "" && tbTel3.Text == "")
                 {
-                    int telefono1 = Int32.Parse(tbTel1.Text);
+                    String telefono1 = tbTel1.Text;
                     Empresa empresa = new Empresa(nomUsuario, nomEmpresa, correo, estado, pais, calle, cp, colonia, municipio, admin, telefono1);
                     if (empresa.registrarEmpresa1Telefono())
                     {
@@ -46,8 +46,8 @@ namespace RecogeYaWeb
                 }
                 else if (tbTel1.Text != "" && tbTel2.Text != "" && tbTel3.Text == "")
                 {
-                    int telefono1 = Int32.Parse(tbTel1.Text);
-                    int telefono2= Int32.Parse(tbTel2.Text);
+                    String telefono1 = tbTel1.Text;
+                    String telefono2= tbTel2.Text;
                     Empresa empresa = new Empresa(nomUsuario, nomEmpresa, correo, estado, pais, calle, cp, colonia, municipio, admin, telefono1, telefono2);
                     if (empresa.registrarEmpresa2Telefonos())
                     {
@@ -59,9 +59,9 @@ namespace RecogeYaWeb
                     }
                 } else if (tbTel1.Text != "" && tbTel2.Text != "" && tbTel3.Text != "")
                 {
-                    int telefono1 = Int32.Parse(tbTel1.Text);
-                    int telefono2 = Int32.Parse(tbTel2.Text);
-                    int telefono3 = Int32.Parse(tbTel3.Text);
+                    String telefono1 = tbTel1.Text;
+                    String telefono2 = tbTel2.Text;
+                    String telefono3 = tbTel3.Text;
                     Empresa empresa = new Empresa(nomUsuario, nomEmpresa, correo, estado, pais, calle, cp, colonia, municipio, admin, telefono1, telefono2, telefono3);
                     if (empresa.registrarEmpresa3Telefonos())
                     {
