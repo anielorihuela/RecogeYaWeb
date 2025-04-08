@@ -52,5 +52,10 @@ namespace RecogeYaWeb
                 lbCheck.Text = "Algo falló";
             }
         }
+
+        protected void RegresarBut_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("index.aspx");
+        }
     }
 }

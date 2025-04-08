@@ -78,5 +78,10 @@ namespace RecogeYaWeb
                 lbCheck.Text = "El nombre de usuario ya existe";
             }
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("index.aspx");
+        }
     }
 }
