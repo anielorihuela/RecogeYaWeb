@@ -14,12 +14,6 @@
     <!-- Encabezado -->
     <h1 style="color: #3E58C9; text-align: center;">RecogeYa</h1>
     
-    <!-- Botón para ver "Mis productos" -->
-    <div style="text-align: center; margin-bottom: 30px;">
-        <asp:Button ID="misProdBut" runat="server" Text="Mis productos" OnClick="misProdBut_Click" 
-            style="background-color: #4A63A8; color: #FFFFFF; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px;" />
-    </div>
-    
     <!-- Sección: Subir un producto -->
     <div style="margin-bottom: 40px;">
         <h2 style="color: #0277BD;">Subir un producto</h2>
@@ -56,13 +50,6 @@
         <div style="margin-bottom: 10px;">
             <label style="font-weight: bold; color: #3E58C9;">Fecha de caducidad (formato yyyy-MM-dd)</label><br />
             <asp:TextBox ID="tbFechaCad" runat="server" 
-                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
-        </div>
-        
-        <!-- Fecha de hoy -->
-        <div style="margin-bottom: 20px;">
-            <label style="font-weight: bold; color: #3E58C9;">Fecha de hoy (formato yyyy-MM-dd)</label><br />
-            <asp:TextBox ID="tbFechaHoy" runat="server" 
                 style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
         </div>
         

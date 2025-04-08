@@ -24,15 +24,6 @@ namespace RecogeYaWeb
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control misProdBut.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button misProdBut;
-
-        /// <summary>
         /// Control tbTipo.
         /// </summary>
         /// <remarks>
@@ -76,15 +67,6 @@ namespace RecogeYaWeb
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbFechaCad;
-
-        /// <summary>
-        /// Control tbFechaHoy.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbFechaHoy;
 
         /// <summary>
         /// Control subirBut.

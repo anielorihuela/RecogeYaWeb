@@ -35,7 +35,11 @@ namespace RecogeYaWeb
             if (producto.insertarProd())
             {
                 lbCheck1.Text = "Producto subido";
+                ddlProdID.Items.Clear(); // Limpiar el DropDownList antes de volver a llenarlo
+                GridView1.DataSource = null;
+                GridView1.DataBind(); // Limpiar el GridView
                 llenarDDL();
+                llenarGV(); // Volver a llenar el GridView
             }
             else
             {
