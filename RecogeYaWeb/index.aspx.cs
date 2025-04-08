@@ -20,7 +20,7 @@ namespace RecogeYaWeb
                 String query = "select Producto.tipo, Producto.precioFinal, Producto.cantidadStock, Producto.caducidad,Empresa.nomEmpresa, Empresa.pais, Empresa.municipio,Empresa.estado, Empresa.CP, Empresa.colonia, Empresa.calle from Producto inner join Empresa on Empresa.nomUsuario = Producto.nomUsuario where Producto.fechaVenta is null and CONVERT(date, Producto.caducidad) >= CONVERT(date, GETDATE())";
                 SqlCommand cmd = new SqlCommand(query, con);
                 SqlDataReader rdr = cmd.ExecuteReader();
-                if (rdr.Read())
+                if (rdr.HasRows)
                 {
                     gvMain.DataSource = rdr;
                     gvMain.DataBind();
