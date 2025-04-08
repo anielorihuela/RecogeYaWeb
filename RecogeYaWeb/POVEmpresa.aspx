@@ -75,40 +75,36 @@
         
         <!-- Label para mensajes de subida -->
         <div style="text-align: center; margin-top: 10px;">
+            <h2 style="color: #0277BD;">Todos tus productos</h2>
             <asp:Label ID="lbCheck1" runat="server" Text=" " style="color: red;"></asp:Label>
-            <asp:GridView ID="GridView1" runat="server" Height="183px" Width="918px">
+            <asp:GridView ID="GridView1" runat="server" Height="183px" Width="918px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
             </asp:GridView>
         </div>
     </div>
     
     <!-- Sección: Actualizar un producto vendido -->
     <div style="margin-bottom: 20px;">
-        <h2 style="color: #0277BD;">Actualizar un producto vendido</h2>
+        <h3 style="color: #0277BD;">Venta de un producto</h3>
         
         <!-- Producto (ID) -->
         <div style="margin-bottom: 10px;">
             <label style="font-weight: bold; color: #3E58C9;">Producto (ID)</label><br />
             <asp:DropDownList ID="ddlProdID" runat="server" 
-                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" OnSelectedIndexChanged="ddlProdID_SelectedIndexChanged" />
         </div>
         
         <!-- Fecha de venta -->
-        <div style="margin-bottom: 10px;">
-            <label style="font-weight: bold; color: #3E58C9;">Fecha de venta (formato yyyy-MM-dd)</label><br />
-            <asp:TextBox ID="tbFechaVenta" runat="server" 
-                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
-        </div>
         
         <!-- Nombre del comprador -->
         <div style="margin-bottom: 20px;">
-            <label style="font-weight: bold; color: #3E58C9;">Nombre del comprador</label><br />
+            <label style="font-weight: bold; color: #3E58C9;">Username del comprador</label><br />
             <asp:TextBox ID="tbNomComp" runat="server" 
                 style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
         </div>
         
         <!-- Botón para actualizar producto -->
         <div style="text-align: center;">
-            <asp:Button ID="actBut" runat="server" Text="Actualizar" OnClick="actBut_Click" 
+            <asp:Button ID="actBut" runat="server" Text="Vender" OnClick="actBut_Click" 
                 style="background-color: #0288D1; color: #FFFFFF; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px;" />
         </div>
     </div>

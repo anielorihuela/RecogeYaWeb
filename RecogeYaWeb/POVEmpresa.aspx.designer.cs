@@ -123,15 +123,6 @@ namespace RecogeYaWeb
         protected global::System.Web.UI.WebControls.DropDownList ddlProdID;
 
         /// <summary>
-        /// Control tbFechaVenta.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbFechaVenta;
-
-        /// <summary>
         /// Control tbNomComp.
         /// </summary>
         /// <remarks>

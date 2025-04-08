@@ -77,34 +77,48 @@ namespace RecogeYaWeb
 
         public static bool ClienteIndexBuscar(GridView gvMain, String busco)
         {
-            SqlConnection con = Conexion.agregarConexion();
-            String query = String.Format("select Producto.tipo, Producto.precioFinal, Producto.cantidadStock, Producto.caducidad,Empresa.nomEmpresa, Empresa.pais, Empresa.municipio,Empresa.estado, Empresa.CP, Empresa.colonia, Empresa.calle from Producto inner join Empresa on Empresa.nomUsuario = Producto.nomUsuario where Producto.tipo like '%{0}%'", busco);
-            SqlCommand cmd = new SqlCommand(query, con);
-            SqlDataReader rdr = cmd.ExecuteReader();
-            if (rdr.HasRows)
+            try
             {
-                gvMain.DataSource = rdr;
-                gvMain.DataBind();
-                return true;
-            }
-            else
+                SqlConnection con = Conexion.agregarConexion();
+                String query = String.Format("select Producto.tipo, Producto.precioFinal, Producto.cantidadStock, Producto.caducidad,Empresa.nomEmpresa, Empresa.pais, Empresa.municipio,Empresa.estado, Empresa.CP, Empresa.colonia, Empresa.calle from Producto inner join Empresa on Empresa.nomUsuario = Producto.nomUsuario where Producto.tipo like '%{0}%'", busco);
+                SqlCommand cmd = new SqlCommand(query, con);
+                SqlDataReader rdr = cmd.ExecuteReader();
+                if (rdr.HasRows)
+                {
+                    gvMain.DataSource = rdr;
+                    gvMain.DataBind();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            } catch (Exception ex)
             {
                 return false;
             }
+
         }
     
     public static void ClienteIndexDropdownList(GridView gvMain, String region)
         {
-            gvMain.DataSource = null;
-            gvMain.DataBind();
-            SqlConnection con = Conexion.agregarConexion();
-            String query = String.Format("select Producto.tipo, Producto.precioFinal, Producto.cantidadStock, Producto.caducidad,Empresa.nomEmpresa, Empresa.pais, Empresa.municipio,Empresa.estado, Empresa.CP, Empresa.colonia, Empresa.calle from Producto inner join Empresa on Empresa.nomUsuario = Producto.nomUsuario where Empresa.municipio = '{0}'", region);
-            SqlCommand cmd = new SqlCommand(query, con);
-            SqlDataReader rdr = cmd.ExecuteReader();
-            if (rdr.HasRows)
+            try
             {
-                gvMain.DataSource = rdr;
+                gvMain.DataSource = null;
                 gvMain.DataBind();
+                SqlConnection con = Conexion.agregarConexion();
+                String query = String.Format("select Producto.tipo, Producto.precioFinal, Producto.cantidadStock, Producto.caducidad,Empresa.nomEmpresa, Empresa.pais, Empresa.municipio,Empresa.estado, Empresa.CP, Empresa.colonia, Empresa.calle from Producto inner join Empresa on Empresa.nomUsuario = Producto.nomUsuario where Empresa.municipio = '{0}'", region);
+                SqlCommand cmd = new SqlCommand(query, con);
+                SqlDataReader rdr = cmd.ExecuteReader();
+                if (rdr.HasRows)
+                {
+                    gvMain.DataSource = rdr;
+                    gvMain.DataBind();
+                }
+            } catch (Exception ex)
+            {
+                return;
+                // Manejo de excepciones
             }
         }
     } 
