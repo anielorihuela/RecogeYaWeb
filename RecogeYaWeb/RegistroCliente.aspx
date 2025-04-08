@@ -68,6 +68,10 @@
     <div style="text-align: center;">
         <asp:Button ID="RegBut" runat="server" Text="Registrarse" OnClick="RegBut_Click"
             style="background-color: #4A63A8; color: #FFFFFF; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px;" />
+        <br />
+        <br />
+        <asp:Button ID="btRegresar" runat="server" Text="Regresar" 
+            style="background-color: #4A63A8; color: #FFFFFF; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px;" OnClick="btRegresar_Click" />
     </div>
 </div>
 
