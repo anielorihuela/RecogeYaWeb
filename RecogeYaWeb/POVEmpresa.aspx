@@ -10,55 +10,110 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <p>RecogeYa</p>
-            <p>
-                <asp:Button ID="misProdBut" runat="server" Text="Mis productos" OnClick="misProdBut_Click" />
-            </p>
-            <p>Subir un producto</p>
-            <p>Nombre del producto</p>
-            <p>
-                <asp:TextBox ID="tbTipo" runat="server"></asp:TextBox>
-            </p>
-            <p>Precio base</p>
-            <p>
-                <asp:TextBox ID="tbPrecioBase" runat="server"></asp:TextBox>
-            </p>
-            <p>Descuento</p>
-            <p>
-                <asp:TextBox ID="tbDesc" runat="server"></asp:TextBox>
-            </p>
-            <p>Cantidad</p>
-            <p>
-                <asp:TextBox ID="tbCant" runat="server"></asp:TextBox>
-            </p>
-            <p>Fecha de caducidad (formato yyyy-MM-dd)</p>
-            <p>
-                <asp:TextBox ID="tbFechaCad" runat="server"></asp:TextBox>
-            </p>
-            <p>
-                <asp:Button ID="subirBut" runat="server" Text="Subir" OnClick="subirBut_Click" />
-            </p>
-            <p>
-                <asp:Label ID="lbCheck1" runat="server" Text=" "></asp:Label>
-            </p>
-            <p>&nbsp;</p>
-            <p>Actualizar un producto vendido</p>
-            <p>Producto (ID)</p>
-            <p>
-                <asp:DropDownList ID="ddlProdID" runat="server">
-                </asp:DropDownList>
-            </p>
-            <p>Fecha de venta (formato yyyy-MM-dd)</p>
-            <p>
-                <asp:TextBox ID="tbFechaVenta" runat="server"></asp:TextBox>
-            </p>
-            <p>Nombre del comprador</p>
-            <p>
-                <asp:TextBox ID="tbNomComp" runat="server"></asp:TextBox>
-            </p>
-            <p>
-                <asp:Button ID="actBut" runat="server" Text="Actualizar" OnClick="actBut_Click" />
-            </p>
+           <div style="max-width: 800px; margin: 50px auto; background-color: #FFFFFF; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <!-- Encabezado -->
+    <h1 style="color: #3E58C9; text-align: center;">RecogeYa</h1>
+    
+    <!-- Botón para ver "Mis productos" -->
+    <div style="text-align: center; margin-bottom: 30px;">
+        <asp:Button ID="misProdBut" runat="server" Text="Mis productos" OnClick="misProdBut_Click" 
+            style="background-color: #4A63A8; color: #FFFFFF; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px;" />
+    </div>
+    
+    <!-- Sección: Subir un producto -->
+    <div style="margin-bottom: 40px;">
+        <h2 style="color: #0277BD;">Subir un producto</h2>
+        
+        <!-- Tipo -->
+        <div style="margin-bottom: 10px;">
+            <label style="font-weight: bold; color: #3E58C9;">Tipo</label><br />
+            <asp:TextBox ID="tbTipo" runat="server" 
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <!-- Precio base -->
+        <div style="margin-bottom: 10px;">
+            <label style="font-weight: bold; color: #3E58C9;">Precio base</label><br />
+            <asp:TextBox ID="tbPrecioBase" runat="server" 
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <!-- Descuento -->
+        <div style="margin-bottom: 10px;">
+            <label style="font-weight: bold; color: #3E58C9;">Descuento</label><br />
+            <asp:TextBox ID="tbDesc" runat="server" 
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <!-- Cantidad -->
+        <div style="margin-bottom: 10px;">
+            <label style="font-weight: bold; color: #3E58C9;">Cantidad</label><br />
+            <asp:TextBox ID="tbCant" runat="server" 
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <!-- Fecha de caducidad -->
+        <div style="margin-bottom: 10px;">
+            <label style="font-weight: bold; color: #3E58C9;">Fecha de caducidad (formato yyyy-MM-dd)</label><br />
+            <asp:TextBox ID="tbFechaCad" runat="server" 
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <!-- Fecha de hoy -->
+        <div style="margin-bottom: 20px;">
+            <label style="font-weight: bold; color: #3E58C9;">Fecha de hoy (formato yyyy-MM-dd)</label><br />
+            <asp:TextBox ID="tbFechaHoy" runat="server" 
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <!-- Botón para subir producto -->
+        <div style="text-align: center;">
+            <asp:Button ID="subirBut" runat="server" Text="Subir" OnClick="subirBut_Click" 
+                style="background-color: #0288D1; color: #FFFFFF; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px;" />
+            <br />
+        </div>
+        
+        <!-- Label para mensajes de subida -->
+        <div style="text-align: center; margin-top: 10px;">
+            <asp:Label ID="lbCheck1" runat="server" Text=" " style="color: red;"></asp:Label>
+            <asp:GridView ID="GridView1" runat="server" Height="183px" Width="918px">
+            </asp:GridView>
+        </div>
+    </div>
+    
+    <!-- Sección: Actualizar un producto vendido -->
+    <div style="margin-bottom: 20px;">
+        <h2 style="color: #0277BD;">Actualizar un producto vendido</h2>
+        
+        <!-- Producto (ID) -->
+        <div style="margin-bottom: 10px;">
+            <label style="font-weight: bold; color: #3E58C9;">Producto (ID)</label><br />
+            <asp:DropDownList ID="ddlProdID" runat="server" 
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <!-- Fecha de venta -->
+        <div style="margin-bottom: 10px;">
+            <label style="font-weight: bold; color: #3E58C9;">Fecha de venta (formato yyyy-MM-dd)</label><br />
+            <asp:TextBox ID="tbFechaVenta" runat="server" 
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <!-- Nombre del comprador -->
+        <div style="margin-bottom: 20px;">
+            <label style="font-weight: bold; color: #3E58C9;">Nombre del comprador</label><br />
+            <asp:TextBox ID="tbNomComp" runat="server" 
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+        
+        <!-- Botón para actualizar producto -->
+        <div style="text-align: center;">
+            <asp:Button ID="actBut" runat="server" Text="Actualizar" OnClick="actBut_Click" 
+                style="background-color: #0288D1; color: #FFFFFF; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px;" />
+        </div>
+    </div>
+</div>
+
         </div>
     </form>
 </body>

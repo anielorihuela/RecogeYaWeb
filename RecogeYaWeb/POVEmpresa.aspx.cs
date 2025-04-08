@@ -19,7 +19,6 @@ namespace RecogeYaWeb
 
         protected void misProdBut_Click(object sender, EventArgs e)
         {
-
         }
 
         protected void subirBut_Click(object sender, EventArgs e)
