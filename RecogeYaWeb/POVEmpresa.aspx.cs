@@ -35,9 +35,6 @@ namespace RecogeYaWeb
             if (producto.insertarProd())
             {
                 lbCheck1.Text = "Producto subido";
-                ddlProdID.Items.Clear(); // Limpiar el DropDownList antes de volver a llenarlo
-                GridView1.DataSource = null;
-                GridView1.DataBind(); // Limpiar el GridView
                 llenarDDL();
                 llenarGV(); // Volver a llenar el GridView
             }
@@ -51,13 +48,13 @@ namespace RecogeYaWeb
         {
             try
             {
-                // Convertir el valor seleccionado a entero y obtener el comprador
+                // Convertir el valor seleccionado a entero y obtener el comprador.
                 int idProd = Convert.ToInt32(ddlProdID.SelectedValue);
                 string idComprador = tbNomComp.Text;
 
                 using (SqlConnection con = Conexion.agregarConexion())
                 {
-                    // Iniciar una transacción
+                    // Iniciar una transacción para agrupar todas las operaciones.
                     using (SqlTransaction tran = con.BeginTransaction())
                     {
                         try
@@ -78,7 +75,6 @@ namespace RecogeYaWeb
                                 {
                                     if (reader.Read())
                                     {
-                                        // Utilizar Convert para transformar el valor a int y decimal.
                                         stock = Convert.ToInt32(reader["cantidadStock"]);
                                         price = Convert.ToDecimal(reader["precioFinal"]);
                                     }
@@ -102,7 +98,6 @@ namespace RecogeYaWeb
                                 object result = cmdInsertCompra.ExecuteScalar();
                                 if (result != null && result != DBNull.Value)
                                 {
-                                    // Convertir el valor (que generalmente es decimal) a int.
                                     idCompra = Convert.ToInt32(Convert.ToDecimal(result));
                                 }
                                 else
@@ -112,10 +107,10 @@ namespace RecogeYaWeb
                             }
 
                             // 4. Insertar en CompraProducto para relacionar la compra con el producto
-                            //    y actualizar el stock del producto a 0.
+                            //    y actualizar el stock a 0, además de registrar la fecha de venta.
                             using (SqlCommand cmdCompraProd = new SqlCommand(
                                 "INSERT INTO CompraProducto (idCompra, idProd, cantidad) VALUES (@idCompra, @idProd, @stock); " +
-                                "UPDATE Producto SET cantidadStock = 0 WHERE idProd = @idProd;",
+                                "UPDATE Producto SET cantidadStock = 0, fechaVenta = GETDATE() WHERE idProd = @idProd;",
                                 con, tran))
                             {
                                 cmdCompraProd.Parameters.AddWithValue("@idCompra", idCompra);
@@ -124,9 +119,11 @@ namespace RecogeYaWeb
                                 cmdCompraProd.ExecuteNonQuery();
                             }
 
-                            // Confirmar la transacción
+                            // Confirmar la transacción si todo sale bien.
                             tran.Commit();
                             lbCheck1.Text = "Compra realizada";
+                            llenarDDL();
+                            llenarGV();
                         }
                         catch (Exception exTrans)
                         {
@@ -143,12 +140,14 @@ namespace RecogeYaWeb
             }
 
 
+
         }
 
         protected void llenarDDL()
         {
             try
             {
+                ddlProdID.Items.Clear();
                 String nomUsuario = Session["nomUsuario"].ToString();
                 String query = String.Format("select Producto.idProd from Producto where Producto.nomUsuario = '{0}' and Producto.fechaVenta is null", nomUsuario);
                 if (!Conexion.llenarComboPOVEmpresa(ddlProdID, query))
@@ -166,19 +165,28 @@ namespace RecogeYaWeb
         {
             try
             {
+                GridView1.DataSource = null;
+                GridView1.DataBind();
                 SqlConnection con = Conexion.agregarConexion();
-                String query = String.Format("select top(10) Producto.tipo, Producto.precioFinal, Producto.cantidadStock, Producto.caducidad from Producto inner join Empresa on Empresa.nomUsuario = Producto.nomUsuario where Producto.nomUsuario = '{0}' order by Producto.fechaPosteo desc", Session["nomUsuario"].ToString());
-                SqlCommand cmd = new SqlCommand(query, con);
-                SqlDataReader rdr = cmd.ExecuteReader();
-                if (rdr.HasRows)
+                if (con != null)
                 {
-                    GridView1.DataSource = rdr;
-                    GridView1.DataBind();
+                    String query1 = "EXEC sp_UpdatePrecioFinal;";
+                    SqlCommand cmd1 = new SqlCommand(query1, con);
+                    int res = cmd1.ExecuteNonQuery();
+                    String query = String.Format("select top(10) Producto.tipo, Producto.precioFinal, Producto.cantidadStock, Producto.caducidad from Producto inner join Empresa on Empresa.nomUsuario = Producto.nomUsuario where Producto.nomUsuario = '{0}' order by Producto.fechaPosteo desc", Session["nomUsuario"].ToString());
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    SqlDataReader rdr = cmd.ExecuteReader();
+                    if (rdr.HasRows)
+                    {
+                        GridView1.DataSource = rdr;
+                        GridView1.DataBind();
+                    }
+                    else
+                    {
+                        lbCheck1.Text = "Error llenando el GV";
+                    }
                 }
-                else
-                {
-                    lbCheck1.Text = "Error llenando el GV";
-                }
+                
             }
             catch (Exception ex)
             {
