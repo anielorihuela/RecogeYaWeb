@@ -15,6 +15,7 @@ namespace RecogeYaWeb
             if (!IsPostBack)
             {
                 llenarDDL();
+                llenarGV();
             }
         }
 

@@ -84,7 +84,7 @@
     
     <!-- Sección: Actualizar un producto vendido -->
     <div style="margin-bottom: 20px;">
-        <h3 style="color: #0277BD;">Venta de un producto</h3>
+        <h2 style="color: #0277BD;">Venta de un producto</h2>
         
         <!-- Producto (ID) -->
         <div style="margin-bottom: 10px;">
